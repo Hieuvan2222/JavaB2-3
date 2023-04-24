@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- BS4 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+
+
+
+
+</head>
+
+<body>
+
+    <!-- BT1 -->
+    <div class="ml-5">
+        <h2>BT1: Tính tiền lương nhân viên</h2>
+        <form>
+            <input id="soNgayLam" type="number" placeholder="số ngày làm ">
+        </form>
+        <button type="button" class="btn badge-dark mt-4" id="btnCalc">Tính Tiền</button>
+        <p class="pt-3" id="txtResult"> </p>
+    </div>
+
+
+    <!-- BT2 -->
+    <div class=" ml-5">
+        <h2> BT2 : Tính giá trị trung bình </h2>
+        <form class=" pt-3">
+            <input id="thucMot" type="number" placeholder="số thực 1">
+            <input id="thucHai" type="number" placeholder="số thực 2">
+            <input id="thucBa" type="number" placeholder="số thực 3">
+            <input id="thucBon" type="number" placeholder="số thực 4">
+            <input id="thucNam" type="number" placeholder="số thực 5">
+        </form>
+        <button onclick="calcTB()" type=" button" class="btn btn-primary mt-3"> Giá Trị Trung Bình</button>
+        <p class="pt-3" id="txtResult2"></p>
+    </div>
+
+
+    <!-- BT3 -->
+    <div class="ml-5">
+        <h2>BT3 : Quy Đổi Tiền </h2>
+        <form class=" pt-3">
+            <input type="number" id="soTien" placeholder="số tiền quy đổi (USD)">
+        </form>
+        <button type="button" class=" btn btn-danger mt-3" id="btnCalc2">Quy Đổi</button>
+        <p class="pt-5" id="txtMoney"></p>
+    </div>
+
+
+
+    <!-- BT4 -->
+    <div class="ml-5">
+        <h2>BT4 : DT , CV Hình Chữ Nhật </h2>
+        <form class="pt-3">
+            <input id="chiuDai" type="number" placeholder="Nhập Chiều Dài ">
+            <input id="chiuRong" type="number" placeholder="Nhập Chiều Rộng ">
+            
+        </form>
+        <button type="button" id="btnCalc3" class="btn btn-light mt-3">Kết Quả</button>
+        <p class="pt-5" id="txtHCN"></p>
+
+    </div>
+
+
+
+
+    <!-- BT5 -->
+      <div class="ml-5">
+        <h2> BT5 : Tính tổng 2 kí số </h2>
+        <form >
+            <input id="soThuc" type="number" placeholder="Nhập số thực">
+
+        </form>
+        <button type="button" id="btnCalc4" class=" btn btn-info mt-3"> Tính </button>
+        <p class="pt-3" id="txtChange"></p>
+      </div>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
